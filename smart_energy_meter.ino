@@ -61,7 +61,7 @@ void loop()
      else
          Serial.println("Error Reading the Power Factor");
      Serial.println();
-     delay(2000);             //represents the time a program should wait unitl moving to next looping step
+     delay(2000);             //represents the time a program should wait until moving to next looping step
  }
 
  //Serial.println(); = used for printing and displaying value in Serial Monitor.
