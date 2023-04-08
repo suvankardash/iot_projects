@@ -17,7 +17,6 @@ void setup()
   }
   Serial.println("Connected to WiFi");
   Serial.println(WiFi.localIP());
-  server.on("/", handleRoot);
   server.begin();                                 // initialized the communication from device to server.
 }
 void loop()
